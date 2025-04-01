@@ -1,6 +1,5 @@
 # Projets VHDL – Premiers Réalisations avec ModelSim
-Ces projets compilent les travaux de laboratoire effectués dans le cadre du cours de Systèmes Numériques II.
-
+Ce dépôt présente mes premiers projets réalisés en VHDL, développés avec l’outil de simulation ModelSim. 
 ## Description des Projets
 
 ### 1. Circuit Combinatoire
