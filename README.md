@@ -1,28 +1,27 @@
-## Sample-VHDL-Projects-for-Artix-7
-Includes 4-bit ALU, sequential design examples, and finite state machine examples. These are the compilation of my laboratory work from Digital Systems II course.
+# Projets VHDL – Premiers Réalisations avec ModelSim
+Ces projets compilent les travaux de laboratoire effectués dans le cadre du cours de Systèmes Numériques II.
 
-## Project Descriptions
-### 1. Combinational Circuit
-A combinational circuit with different concurrent signal assignment techniques. VDHL description of this truth table given below.
+## Description des Projets
+
+### 1. Circuit Combinatoire
+Ce projet présente un circuit combinatoire implémentant différentes techniques d’assignation de signaux concurrentes. La description VHDL de la table de vérité correspondante est illustrée ci-dessous.
 
 <p align="center"> 
   <img src="https://dl.dropboxusercontent.com/s/ksgjdm3oew0nklw/TruthTable.PNG">
 </p>
 
-### 2. 4-bit ALU
-An Arithmetic and Logic Unit (ALU) is a combinational circuit that performs logical and arithmetic operations on a pair of n-bit operands (in this case, A[3:0] and B[3:0]). The operations performed by an ALU are controlled by a set of operation-select inputs. In this work, 4-bit ALU has 3 operation-select inputs, S[2:0]. Logical operations take place on the bits that comprise a value (known as bitwise operations), while arithmetic operations treat inputs and outputs as two’s complement integers.
-
-The block diagram and the truth table for the ALU are shown below.
+### 2. ALU 4 bits
+L’Unité Arithmétique et Logique (ALU) est un circuit combinatoire capable d’effectuer des opérations logiques et arithmétiques sur deux opérandes de 4 bits (A[3:0] et B[3:0]). Les opérations de l’ALU sont déterminées par trois entrées de sélection (S[2:0]). Les opérations logiques sont réalisées bit à bit, tandis que les opérations arithmétiques considèrent les valeurs en complément à deux. Le diagramme de blocs et la table de vérité de l’ALU sont présentés ci-dessous.
 
 <p align="center"> 
   <img src="https://dl.dropboxusercontent.com/s/cl5yxw5zzegb3ys/ALU.png">
 </p>
 
-### 3. Sequential Design - Digital Clock
-A 32-bit up_down counter with a synchronous reset and an enable input. In up mode, counter will count up to until "upperlimit" and then reset to zero. In down mode, counter will count down to zero and then reset to "upperlimit".
+### 3. Conception Séquentielle – Horloge Digitale
+Ce projet consiste en un compteur 32 bits "up_down" avec réinitialisation synchrone et une entrée d’activation (enable). En mode incrémentation, le compteur compte jusqu’à une "limite supérieure" avant de se réinitialiser à zéro, et en mode décrémentation, il compte jusqu’à zéro avant de revenir à la "limite supérieure".
 
-### 4. Sequential Design - Rotating Squares
-This project implements the rotating squares on seven segments as shown in this figure:
+### 4. Conception Séquentielle – Carrés Rotatifs
+Dans ce projet, des carrés rotatifs sont implémentés sur des segments à sept. La figure ci-dessous illustre le fonctionnement du dispositif :
 
 <p align="center"> 
   <img src="https://dl.dropboxusercontent.com/s/tr9v1q015tcgth0/RotatingSquares.png">
